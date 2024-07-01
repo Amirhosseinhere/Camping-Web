@@ -5,7 +5,7 @@ return (
     <div className="container">
         <nav>
             <a href="#" className="app-logo">
-                <img src="#" alt="Camping web" className="app-logo_img" />
+                <img src="../public/images/app-icon.png" alt="Camping web" className="app-logo_img" />
             </a>
         </nav>
         <ul className="menu">
