@@ -1,31 +1,68 @@
-@font-face{
+@font-face {
   font-family: "Roboto";
   src: url(../src/assets/fonts/Roboto/Roboto-Regular.ttf) format(truetype);
 }
 
-@font-face{
+@font-face {
   font-family: "Roboto Medium";
   src: url(../src/assets/fonts/Roboto/Roboto-Medium.ttf) format(truetype);
 }
 
-@font-face{
+@font-face {
   font-family: "Archivo Black";
   src: url(../src/assets/fonts/Archivo/Archivo-Black.ttf) format(truetype);
 }
 
-html{
+html {
   box-sizing: border-box;
   font-size: 62.5%;
 }
 
-body{
+body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
   font-size: 1.6rem;
 }
 
-*,*:after,*::before{
+*,
+*:after,
+*::before {
   box-sizing: inherit;
 }
 
+.container {
+  width: 100%;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+      width: 54rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+      width: 72rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+      width: 114rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+      width: 137rem;
+  }
+}
+
+a {
+  text-decoration: none;
+}
