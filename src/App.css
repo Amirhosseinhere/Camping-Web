@@ -23,6 +23,7 @@ body {
   padding: 0;
   line-height: 1.6;
   font-size: 1.6rem;
+  font-family: "Roboto";
 }
 
 *,
@@ -63,6 +64,3 @@ body {
   }
 }
 
-a {
-  text-decoration: none;
-}
