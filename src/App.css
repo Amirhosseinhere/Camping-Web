@@ -1,3 +1,7 @@
+:root{
+  --orange:#e76f51;
+}
+
 @font-face {
   font-family: "Roboto";
   src: url(../src/assets/fonts/Roboto/Roboto-Regular.ttf) format(truetype);
